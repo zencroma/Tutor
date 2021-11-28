@@ -13,12 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Latihan row dan column'),
-        ),
         body: Container(
             color: Colors.lightBlue,
-            padding: EdgeInsets.only(top: 120),
+            padding: EdgeInsets.only(top: 200),
             
             child: Container(
               padding: EdgeInsets.only(top:50),
