@@ -2,6 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
           body: Container(
-            // width: MediaQuery.of(context).size.width,
+        width: MediaQuery.of(context).size.width,
         color: Colors.lightBlue,
         padding: EdgeInsets.only(top: 200),
         child: Container(
@@ -47,7 +49,6 @@ class MyApp extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.red,
                     ),
-                    width: 315,
                     height: 50,
                   ),
                 ],
@@ -70,7 +71,6 @@ class MyApp extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.red,
                     ),
-                    width: 315,
                     height: 50,
                   ),
                 ],
@@ -93,7 +93,6 @@ class MyApp extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.lightBlue,
                     ),
-                    width: 315,
                     height: 50,
                   ),
                 ],
