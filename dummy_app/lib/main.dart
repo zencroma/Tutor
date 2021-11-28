@@ -53,21 +53,53 @@ class MyApp extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(30),
-                      color: Colors.green,
-                    ),
-                    width: 315,
-                    height: 50,
+                  Column(
+                    children: [
+                      Text(
+                        "Welcome to Flutter",
+                        style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Colors.red,
+                        ),
+                        width: 315,
+                        height: 50,
+                        
+                      ),
+                    ],
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(30)),
-                      color: Colors.lightBlue,
-                    ),
-                    width: 315,
-                    height: 50,
+                  Column(
+                    children: [
+                      Text(
+                        "Welcome to Flutter",
+                        style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Colors.lightBlue,
+                        ),
+                        width: 315,
+                        height: 50,
+                        
+                      ),
+                    ],
                   ),
                 ],
               ),
