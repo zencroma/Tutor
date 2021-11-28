@@ -1,6 +1,6 @@
 # dummy_app
 
-A new Flutter project.
+Latihan Row and column 
 
 ## Getting Started
 
