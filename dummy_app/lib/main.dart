@@ -26,41 +26,36 @@ class MyApp extends StatelessWidget {
                 ),
                 color: Colors.white,
               ),
-              child: Row(
+              child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: <Widget>[
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.red,
-                        ),
-                        width: 315,
-                        height: 50,
-                        
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(30),
-                          color: Colors.green,
-                        ),
-                        width: 315,
-                        height: 50,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(30)),
-                          color: Colors.lightBlue,
-                        ),
-                        width: 315,
-                        height: 50,
-                      ),
-                    ],
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      color: Colors.red,
+                    ),
+                    width: 315,
+                    height: 50,
+                    
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.green,
+                    ),
+                    width: 315,
+                    height: 50,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(30)),
+                      color: Colors.lightBlue,
+                    ),
+                    width: 315,
+                    height: 50,
                   ),
                 ],
-            ),
+              ),
             ),
             )),
       );
