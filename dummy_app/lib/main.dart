@@ -4,6 +4,7 @@
 
 // ignore_for_file: prefer_const_constructors
 
+import 'package:dummy_app/tes.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -14,93 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-          body: Container(
-        width: MediaQuery.of(context).size.width,
-        color: Colors.lightBlue,
-        padding: EdgeInsets.only(top: 200),
-        child: Container(
-          padding: EdgeInsets.only(top: 50),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(30),
-              topRight: Radius.circular(30),
-            ),
-            color: Colors.white,
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
-              Column(
-                children: [
-                  Text(
-                    "Welcome to Flutter",
-                    style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.red,
-                    ),
-                    height: 50,
-                  ),
-                ],
-              ),
-              Column(
-                children: [
-                  Text(
-                    "Welcome to Flutter",
-                    style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.red,
-                    ),
-                    height: 50,
-                  ),
-                ],
-              ),
-              Column(
-                children: [
-                  Text(
-                    "Welcome to Flutter",
-                    style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.lightBlue,
-                    ),
-                    height: 50,
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
-      )),
+      home: Tes(),
     );
   }
 }
