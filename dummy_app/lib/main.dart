@@ -36,17 +36,21 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
                       Container(
-                        
-                        child:Text('Email'),
-                        padding: EdgeInsets.all(50),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: Colors.red,
+                        ),
                         width: 315,
                         height: 50,
-                        color: Colors.black,
+                        
                       ),
                       Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(30),
+                          color: Colors.green,
+                        ),
                         width: 315,
                         height: 50,
-                        color: Colors.green,
                       ),
                       Container(
                         decoration: BoxDecoration(
